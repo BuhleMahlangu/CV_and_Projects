@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Product
+comment1.params=barcode\ name\ unitPrice
+comment1.target=Product(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ calculateCost()
+comment3.params=
+comment3.target=int\ getUnitPrice()
+comment4.params=
+comment4.target=java.lang.String\ getBarcode()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=other
+comment6.target=int\ compareTo(Product)
+numComments=7

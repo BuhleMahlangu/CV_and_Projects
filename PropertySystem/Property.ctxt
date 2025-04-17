@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Property
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Property\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=propertyCode\ agent
+comment1.target=Property(java.lang.String,\ EstateAgent)
+comment2.params=
+comment2.target=double\ calculateTotalAmount()
+comment3.params=percentage
+comment3.target=double\ calculateCommission(double)
+numComments=4

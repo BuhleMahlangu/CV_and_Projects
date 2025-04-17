@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RentProperty
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ RentProperty\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=propertyCode\ agent\ monthlyRent\ contractDuration
+comment1.target=RentProperty(java.lang.String,\ EstateAgent,\ double,\ int)
+comment2.params=
+comment2.target=double\ calculateTotalAmount()
+comment3.params=percentage
+comment3.target=double\ calculateCommission(double)
+numComments=4

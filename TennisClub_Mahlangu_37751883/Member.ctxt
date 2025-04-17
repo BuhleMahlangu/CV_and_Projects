@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Member
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Member\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Member()
+comment2.params=name\ age
+comment2.target=Member(java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=int\ getMatches()
+comment6.params=matches
+comment6.target=void\ setMatches(int)
+comment7.params=
+comment7.target=java.lang.String\ determineCategory()
+comment8.params=
+comment8.target=java.lang.String\ determineRating()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
