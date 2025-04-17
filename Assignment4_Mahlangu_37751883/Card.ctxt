@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Card
+comment1.params=i
+comment1.target=Card(int)
+comment2.params=b
+comment2.target=void\ setGuessed(boolean)
+comment3.params=
+comment3.target=boolean\ isGuessed()
+comment4.params=
+comment4.target=java.lang.Integer\ getVal()
+comment5.params=e
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=cardList
+comment6.target=int\ getCount(java.util.ArrayList)
+comment7.params=cardList
+comment7.target=boolean\ isAllGuessed(java.util.ArrayList)
+comment8.params=cardList
+comment8.target=boolean\ isFull(java.util.ArrayList)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Card
+comment1.params=value
+comment1.target=Card(int)
+comment2.params=
+comment2.target=int\ getValue()
+comment3.params=
+comment3.target=boolean\ isGuessed()
+comment4.params=guessed
+comment4.target=void\ setGuessed(boolean)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+comment7.params=
+comment7.target=int\ hashCode()
+numComments=8

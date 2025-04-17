@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MemoryGame
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=count
+comment2.target=java.util.List\ generateRandomValues(int)
+comment3.params=grid
+comment3.target=void\ playGame(Card[][])
+comment4.params=grid
+comment4.target=boolean\ allCardsGuessed(Card[][])
+comment5.params=grid
+comment5.target=void\ printGrid(Card[][])
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=QueueSortTest
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ QueueSortTest\ here.\r\n\r\n\ @author\ (BL\ Mahlangu\ 37751883)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=pl\ x
+comment2.target=QueueAsMyLinkedList\ method(QueueAsMyLinkedList,\ int)
+numComments=3
