@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PrintBook
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PrintBook\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=author\ title\ isbn\ numPages\ weight
+comment1.target=PrintBook(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=int\ getNumPages()
+comment3.params=
+comment3.target=double\ getWeight()
+comment4.params=numPages
+comment4.target=void\ setNumPages(int)
+comment5.params=weight
+comment5.target=void\ setWeight(double)
+comment6.params=
+comment6.target=java.lang.String\ getSizeDetails()
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BookStoreApp
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=books\ count
+comment2.target=void\ displayAllBooks(Book[],\ int)
+comment3.params=books\ count
+comment3.target=void\ displaySizeDetails(Book[],\ int)
+comment4.params=books\ count
+comment4.target=void\ displayPrintedBookWeights(Book[],\ int)
+comment5.params=books\ count
+comment5.target=void\ sortBooks(Book[],\ int)
+comment6.params=book
+comment6.target=java.lang.String\ getSortingField(Book)
+comment7.params=books\ count
+comment7.target=void\ serializeBooks(Book[],\ int)
+comment8.params=
+comment8.target=void\ readSerializedBooks()
+numComments=9
