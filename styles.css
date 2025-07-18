@@ -50,14 +50,9 @@ h2 {
     color: #007BFF;
 }
 
-#about {
-    display: flex;
-    align-items: center; /* Align items vertically */
-}
-
 /* About Me Image */
 #about img {
-    max-width: 120px; /* Set the maximum width of the image */
+    max-width: 150px; /* Set the maximum width of the image */
     border-radius: 50%; /* Makes the image circular */
     float: left; /* Aligns the image to the left */
     margin-right: 20px; /* Adds space between the image and text */
