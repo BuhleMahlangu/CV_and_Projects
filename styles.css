@@ -51,17 +51,23 @@ h2 {
 }
 
 #about {
-    min-height: 200px; /* Set a minimum height to accommodate the image */
-    padding: 20px; /* Add some padding for aesthetics */
+    min-height: 200px; /* Set a minimum height */
+    padding: 20px; /* Add padding */
     display: flex; /* Use Flexbox for alignment */
     align-items: flex-start; /* Align items at the top */
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text */
+    flex-direction: column; /* Stack items vertically */
 }
 
 #about img {
-    max-width: 150px; /* Set the maximum width of the image */
+    max-width: 150px; /* Set maximum width */
     border-radius: 50%; /* Makes the image circular */
-    margin-right: 20px; /* Adds space between the image and text */
-    margin-top: -15px; /* Move the image up by adjusting the top margin */
+    margin-top: -10px; /* Adjust this value for vertical positioning */
+}
+
+#about h2 {
+    margin-bottom: 10px; /* Space between the heading and image/text */
 }
 
 /* Projects List */
