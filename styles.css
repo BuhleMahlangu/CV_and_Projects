@@ -51,6 +51,12 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+.horizontal-sections {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Space sections evenly */
+    gap: 20px; /* Space between horizontal sections */
+}
+
 #about {
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -99,6 +105,10 @@ section {
     #about img {
         margin-bottom: 0; /* Remove bottom margin for image */
         margin-right: 20px; /* Space between image and text */
+    }
+
+    .horizontal-sections {
+        flex-direction: row; /* Ensure horizontal layout on larger screens */
     }
 }
 
