@@ -54,15 +54,14 @@ h2 {
     min-height: 200px; /* Set a minimum height to accommodate the image */
     padding: 20px; /* Add some padding for aesthetics */
     display: flex; /* Use Flexbox for alignment */
-    align-items: center; /* Align items vertically */
+    align-items: flex-start; /* Align items at the top */
 }
 
-/* About Me Image */
 #about img {
     max-width: 150px; /* Set the maximum width of the image */
     border-radius: 50%; /* Makes the image circular */
-    float: left; /* Aligns the image to the left */
     margin-right: 20px; /* Adds space between the image and text */
+    margin-top: -15px; /* Move the image up by adjusting the top margin */
 }
 
 /* Projects List */
