@@ -1,105 +1,120 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Global padding */
 }
 
 header {
-    background: #007BFF;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Section Styles */
-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    margin: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #007bff; /* Header background */
+    color: white; /* Text color */
 }
 
-h2 {
-    color: #007BFF;
+nav {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px; /* Rounded buttons */
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Hover effect */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Stack items */
+    gap: 20px; /* Space between sections */
+}
+
+section {
+    background: white; /* Section background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 #about {
-    min-height: 200px; /* Set a minimum height */
-    padding: 20px; /* Add padding */
-    display: flex; /* Use Flexbox for alignment */
-    align-items: flex-start; /* Align items at the top */
-    justify-content: center; /* Center the content horizontally */
-    text-align: center; /* Center the text */
+    display: flex;
     flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
 }
 
 #about img {
     max-width: 150px; /* Set maximum width */
-    border-radius: 50%; /* Makes the image circular */
-    margin-top: -10px; /* Adjust this value for vertical positioning */
+    width: 100%; /* Responsive width */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px; /* Space between image and text */
 }
 
 #about h2 {
-    margin-bottom: 10px; /* Space between the heading and image/text */
+    margin: 10px 0; /* Margin for spacing */
 }
 
-/* Projects List */
-ul {
-    list-style-type: none;
-    padding: 0;
+#about p {
+    font-size: 1em; /* Font size for paragraph */
+    color: #666; /* Slightly lighter text color */
+    line-height: 1.5; /* Improved line spacing */
 }
 
-ul li {
-    margin: 10px 0;
+/* Responsive Styles */
+@media (min-width: 600px) {
+    main {
+        flex-direction: row; /* Side by side on larger screens */
+    }
+
+    section {
+        flex: 1; /* Equal space for sections */
+        margin: 0 10px; /* Space between sections */
+    }
+
+    header {
+        flex-direction: row; /* Horizontal layout */
+    }
+
+    #about {
+        flex-direction: row; /* Change to row layout */
+        align-items: flex-start; /* Align items at the top */
+        text-align: left; /* Left-align text for larger screens */
+    }
+
+    #about img {
+        margin-bottom: 0; /* Remove bottom margin for image */
+        margin-right: 20px; /* Space between image and text */
+    }
 }
 
 footer {
     text-align: center;
-    padding: 20px 0;
-    background: #007BFF;
-    color: #fff;
+    padding: 20px;
+    background: #007bff; /* Footer background */
+    color: white; /* Text color */
+    margin-top: 20px; /* Space above footer */
 }
 
-/* Contact Information */
-footer h2 {
-    margin-top: 0;
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
 }
 
-footer p {
-    margin: 5px 0;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+p {
+    margin: 10px 0; /* Space between paragraphs */
 }
