@@ -65,11 +65,11 @@ section {
     margin-bottom: 15px; /* Space between image and text */
 }
 
-#about h2 {
+#about h2, #education h2, #languages h2, #hobbies h2 {
     margin: 10px 0; /* Margin for spacing */
 }
 
-#about p {
+#about p, #education p, #languages p, #hobbies p {
     font-size: 1em; /* Font size for paragraph */
     color: #666; /* Slightly lighter text color */
     line-height: 1.5; /* Improved line spacing */
