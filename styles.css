@@ -56,7 +56,7 @@ section {
 
 #about {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: row; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
 }
@@ -119,7 +119,7 @@ html {
     }
 
     nav {
-        flex-direction: column; /* Stack navigation links vertically */
+        flex-direction: row; /* Stack navigation links vertically */
         align-items: center; /* Center align links */
     }
 
