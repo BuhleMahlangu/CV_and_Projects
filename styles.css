@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
     background: #007bff; /* Header background */
     color: white; /* Text color */
@@ -26,13 +27,15 @@ header {
 
 nav {
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping of links */
+    justify-content: center; /* Center links */
     gap: 15px; /* Space between links */
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 10px 15px;
     border-radius: 5px; /* Rounded buttons */
     transition: background 0.3s;
 }
@@ -108,7 +111,7 @@ html {
 /* Responsive Styles */
 @media (min-width: 600px) {
     main {
-        flex-direction: column; /* Keep sections stacked vertically */
+        flex-direction: row; /* Keep sections stacked vertically */
     }
 
     header {
@@ -124,6 +127,17 @@ html {
     #about img {
         margin-bottom: 0; /* Remove bottom margin for image */
         margin-right: 20px; /* Space between image and text */
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        max-width: 1200px; /* Max width for larger screens */
+        margin: auto; /* Center the main content */
+    }
+
+    section {
+        padding: 30px; /* More padding for larger screens */
     }
 }
 
