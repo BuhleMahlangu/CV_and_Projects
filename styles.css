@@ -14,15 +14,11 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
     padding: 20px;
     background: #007bff; /* Header background */
     color: white; /* Text color */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 nav {
@@ -30,6 +26,11 @@ nav {
     flex-wrap: wrap; /* Allow wrapping of links */
     justify-content: center; /* Center links */
     gap: 15px; /* Space between links */
+}
+
+nav div {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
 }
 
 nav a {
@@ -46,13 +47,11 @@ nav a:hover {
 
 main {
     display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap; 
+    flex-direction: row;  
     gap: 20px; /* Space between sections */
 }
 
 section {
-    flex: 1 1 calc(30% - 20px); /* Default width for larger screens */
     background: white; /* Section background */
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
