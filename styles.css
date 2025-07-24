@@ -60,6 +60,7 @@ section {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
+    margin: 20px 0;
 }
 
 #about img {
@@ -79,6 +80,7 @@ h2 {
 }
 
 p {
+    margin: 0;
     font-size: 1em; /* Font size for paragraph */
     color: #666; /* Slightly lighter text color */
     line-height: 1.5; /* Improved line spacing */
