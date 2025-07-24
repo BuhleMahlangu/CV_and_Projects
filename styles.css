@@ -46,11 +46,13 @@ nav a:hover {
 
 main {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: row; 
+    flex-wrap: wrap; 
     gap: 20px; /* Space between sections */
 }
 
 section {
+    flex: 1 1 calc(30% - 20px);
     background: white; /* Section background */
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
@@ -67,6 +69,7 @@ section {
 #about img {
     max-width: 150px; /* Set maximum width */
     width: 100%; /* Responsive width */
+    height: auto;
     border-radius: 50%; /* Circular image */
     margin-bottom: 15px; /* Space between image and text */
 }
@@ -110,34 +113,14 @@ html {
 
 /* Responsive Styles */
 @media (min-width: 600px) {
-    main {
-        flex-direction: row; /* Keep sections stacked vertically */
-    }
-
-    header {
-        flex-direction: row; /* Horizontal layout */
-    }
-
-    #about {
-        flex-direction: row; /* Change to row layout */
-        align-items: flex-start; /* Align items at the top */
-        text-align: left; /* Left-align text for larger screens */
-    }
-
-    #about img {
-        margin-bottom: 0; /* Remove bottom margin for image */
-        margin-right: 20px; /* Space between image and text */
+    section {
+        flex: 1 1 100%; /* Stack sections on small screens */
     }
 }
 
 @media (min-width: 900px) {
-    main {
-        max-width: 1200px; /* Max width for larger screens */
-        margin: auto; /* Center the main content */
-    }
-
     section {
-        padding: 30px; /* More padding for larger screens */
+        flex: 1 1 calc(45% - 20px); /* Adjust to 2 columns on medium screens */
     }
 }
 
