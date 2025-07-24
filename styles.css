@@ -52,11 +52,12 @@ section {
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1 1 calc(30% - 20px);
 }
 
 #about {
     display: flex;
-    flex-direction: row; /* Stack items vertically */
+    flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
 }
@@ -125,8 +126,7 @@ html {
 
     nav a {
         margin: 5px 0; /* Space between links */
-        width: 100%; /* Full width for links */
-        text-align: center; /* Center text in links */
+        padding: 10px;
     }
 }
 
