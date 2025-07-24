@@ -52,7 +52,7 @@ main {
 }
 
 section {
-    flex: 1 1 calc(30% - 20px);
+    flex: 1 1 calc(30% - 20px); /* Default width for larger screens */
     background: white; /* Section background */
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
@@ -69,7 +69,7 @@ section {
 #about img {
     max-width: 150px; /* Set maximum width */
     width: 100%; /* Responsive width */
-    height: auto;
+    height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Circular image */
     margin-bottom: 15px; /* Space between image and text */
 }
@@ -112,15 +112,15 @@ html {
 }
 
 /* Responsive Styles */
-@media (min-width: 600px) {
+@media (max-width: 900px) {
     section {
-        flex: 1 1 100%; /* Stack sections on small screens */
+        flex: 1 1 calc(45% - 20px); /* Two columns on medium screens */
     }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
     section {
-        flex: 1 1 calc(45% - 20px); /* Adjust to 2 columns on medium screens */
+        flex: 1 1 100%; /* Stack sections on small screens */
     }
 }
 
