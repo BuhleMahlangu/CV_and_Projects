@@ -28,11 +28,6 @@ nav {
     gap: 15px; /* Space between links */
 }
 
-nav div {
-    display: flex;
-    flex-direction: column; /* Stack links vertically */
-}
-
 nav a {
     color: white;
     text-decoration: none;
@@ -49,6 +44,7 @@ main {
     display: flex;
     flex-direction: row;  
     gap: 20px; /* Space between sections */
+    flex-wrap: wrap;
 }
 
 section {
@@ -120,6 +116,17 @@ html {
 @media (max-width: 600px) {
     section {
         flex: 1 1 100%; /* Stack sections on small screens */
+    }
+
+    nav {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center; /* Center align links */
+    }
+
+    nav a {
+        margin: 5px 0; /* Space between links */
+        width: 100%; /* Full width for links */
+        text-align: center; /* Center text in links */
     }
 }
 
