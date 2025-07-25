@@ -99,6 +99,8 @@ ul {
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s;
+    display: inline-block; /* Align buttons inline */
+    margin: 5px; /* Space between buttons */
 }
 
 .button:hover {
