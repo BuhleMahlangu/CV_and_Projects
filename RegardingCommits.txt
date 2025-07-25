@@ -1,0 +1,4 @@
+Coding for the Virtual CV was done mainly in the CV_and_Projects Repository 
+however upon viewing the rubric I realised that the Virtual CV must have its own repository,
+and I then proceeded to create a new repository (Virtual_CV) and moved the code to the new repository
+hence most commits are on the CV_and_Projects repository
